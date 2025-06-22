@@ -17,9 +17,10 @@
 
 ## 🛠️ Requirements
 
-- Python 3.7+
+- `Python 3.7+`
 - `requests`
-- `tqdm`
+- `tabulate`
+- `colorama`
 - Optional: Burp Suite (for traffic inspection)
 
 Install dependencies:
