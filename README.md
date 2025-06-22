@@ -62,7 +62,7 @@ FirestoreExtractor simulates real client-side behavior by interacting directly w
 1. Sends crafted requests to check if collections exist.
 2. Determines read/write access by attempting safe document operations.
 3. Searches for sensitive keywords in readable fields.
-4. Optionally attempts **escalation** using discovered credentials or tokens.
+4. Optionally suggests **escalation** via WRITE permissions to collections such as users, accounts, etc.
 
 ---
 
@@ -75,7 +75,7 @@ FirestoreExtractor simulates real client-side behavior by interacting directly w
   ```
 
 - Dumps sensitive document data (if enabled).
-- Provides privilege escalation suggestions based on findings.
+- Provides suggestions for privilege escalation based on findings.
 
 ---
 
