@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## ⚙️ Usage
 
 ```bash
-python firestore_extractor.py
+python firestoreExtractor.py
 ```
 
 You will be prompted for:
