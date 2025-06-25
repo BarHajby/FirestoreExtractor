@@ -1,6 +1,6 @@
 # 🔥 FirestoreExtractor - Penetration Testing tool for Firestore
 
-**FirestoreExtractor** is a powerful black-box penetration testing tool designed to extract and enumerate data from **Google Firestore** databases exposed directly to frontend clients (e.g., via Firebase SDK in Flutter Web, React, etc). It supports both unauthenticated and authenticated access flows, allowing security researchers to identify misconfigured rules, perform collection discovery, and extract sensitive information in a stealthy and automated manner.
+**FirestoreExtractor** is a powerful penetration testing tool designed to extract and enumerate data from **Google Firestore** databases exposed directly to frontend clients (e.g., via Firebase SDK in Flutter Web, React, etc). It supports both unauthenticated and authenticated access flows, allowing security researchers to identify misconfigured rules, perform collection discovery, and extract sensitive information in a stealthy and automated manner.
 
 ---
 
